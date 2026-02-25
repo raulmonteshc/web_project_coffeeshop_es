@@ -21,7 +21,7 @@ body{
     flex-direction: column;
   }
   .logo {
-    position: relative;  
+    position: relative;
     left: -50px;
   }
   .logo img {
@@ -88,7 +88,7 @@ body{
     height: 568px;
     width: 646px;
   }
-  
+
   .header-info {
     display: flex;
     position: relative;
@@ -96,9 +96,71 @@ body{
     align-items: flex-end;
     margin-top: auto;
     font-size: 14px;
-    color: #777;    
+    color: #777;
   }
   .info-text{
     margin: 0;
   }
-  
+  main{
+    background-color: #FFD6C5;
+    background-image: url(../images/background_reservation.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+  }
+  .reservation__title{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+  }
+  .form{
+  }
+  .form__container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 385px;
+    padding: 32px;
+  }
+.form__label{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 32px;
+}
+.form__checkbox{
+  padding-top: 32px;
+}
+.form__input{
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.form__button form__button--submit{
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+footer{
+  padding: 60px 80px;
+}
