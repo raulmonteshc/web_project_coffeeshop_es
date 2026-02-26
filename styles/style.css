@@ -46,8 +46,10 @@ body{
     text-decoration: none;
     list-style-type: none;
     column-gap: 20px;
-
-  }
+    }
+    .nav-links:hover{
+     color: #FF976B;
+    }
   .header-title {
     max-width: 709px;
     margin-bottom: 28px;
@@ -172,6 +174,10 @@ body{
   background-color: #E96E3A;
   color: white;
   border-color: transparent;
+  cursor: pointer;
+}
+.form__button:hover{
+  opacity: 0.7;
 }
 .form__label_type_checkbox{
   display: flex;
